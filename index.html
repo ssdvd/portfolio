@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Santana — Cloud &amp; DevOps</title>
+  <meta name="description" content="Portfólio de David Santana: Cloud, DevOps e SRE. Certificado AWS Solutions Architect, com projetos em Terraform, Ansible, Docker, Kubernetes e GitHub Actions.">
+  <meta property="og:title" content="David Santana — Cloud & DevOps">
+  <meta property="og:description" content="Infraestrutura como código, CI/CD e automação na AWS.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/avatar.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // aplica o tema salvo antes da primeira pintura
+    try {
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <a class="brand" href="#topo" aria-label="Início"><span>#!</span>/david</a>
+      <nav aria-label="Seções">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificacoes">Certificações</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button id="theme" class="icon-btn" type="button" aria-label="Alternar tema claro/escuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-.9-.1-1.4A5.5 5.5 0 0 1 13.4 3.1 9 9 0 0 0 12 3z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero wrap" id="topo">
+      <div class="hero-text">
+        <p class="prompt"><span>$</span> whoami</p>
+        <h1>David Santana</h1>
+        <p class="role">Cloud · DevOps · SRE</p>
+        <p class="lead">
+          Projeto e automatizo infraestrutura na AWS com Terraform, Ansible, Docker e
+          pipelines de CI/CD — para que ambientes sejam escaláveis, reproduzíveis e fáceis de operar.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn" href="https://www.linkedin.com/in/-dss/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/ssdvd" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.credly.com/users/dss" target="_blank" rel="noopener">Credly</a>
+        </div>
+      </div>
+      <div class="hero-side">
+        <img class="avatar" src="assets/avatar.jpg" alt="Foto de David Santana" width="200" height="200">
+        <ul class="hero-badges" aria-label="Principais certificações">
+          <li><img src="assets/aws-saa.png" alt="AWS Certified Solutions Architect – Associate" width="72" height="72"></li>
+          <li><img src="assets/aws-ccp.png" alt="AWS Certified Cloud Practitioner" width="72" height="72"></li>
+          <li><img src="assets/az-900.png" alt="Microsoft Certified: Azure Fundamentals" width="72" height="72"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap" id="sobre">
+      <h2><span>01.</span> Sobre</h2>
+      <div class="about">
+        <div>
+          <p>
+            Fala, rede! Sou o David, atualmente focado em <strong>Cloud, DevOps e SRE</strong>.
+            Tenho mais de 6 anos de experiência em suporte de T.I., formação em
+            <strong>Análise e Desenvolvimento de Software</strong> e pós-graduação em <strong>DevOps</strong>.
+          </p>
+          <p>
+            Sou capacitado para projetar e implementar soluções de infraestrutura e aplicações de alto
+            desempenho, com foco especial em automação para garantir escalabilidade e eficiência —
+            tanto em nuvem quanto em ambientes locais.
+          </p>
+        </div>
+        <ul class="facts">
+          <li><strong>6+</strong><span>anos em T.I.</span></li>
+          <li><strong>3</strong><span>certificações de nuvem</span></li>
+          <li><strong>20+</strong><span>repositórios públicos</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap" id="skills">
+      <h2><span>02.</span> Skills</h2>
+      <div class="skills">
+        <article>
+          <h3>Cloud · AWS</h3>
+          <ul class="tags"><li>EC2</li><li>ELB</li><li>ASG</li><li>S3</li><li>VPC</li><li>ECR</li><li>ECS</li><li>EKS</li><li>RDS</li><li>Lightsail</li><li>Elastic Beanstalk</li></ul>
+        </article>
+        <article>
+          <h3>IaC &amp; Containers</h3>
+          <ul class="tags"><li>Terraform</li><li>Ansible</li><li>Docker</li><li>Kubernetes</li></ul>
+        </article>
+        <article>
+          <h3>CI/CD</h3>
+          <ul class="tags"><li>GitHub Actions</li><li>Testes automatizados</li><li>Rollback</li><li>Teste de carga</li></ul>
+        </article>
+        <article>
+          <h3>Linux</h3>
+          <ul class="tags"><li>Ubuntu</li><li>CentOS</li><li>Apache2</li><li>Nginx</li><li>Iptables</li><li>Squid Proxy</li></ul>
+        </article>
+        <article>
+          <h3>Windows Server</h3>
+          <ul class="tags"><li>AD</li><li>GPO</li><li>DHCP</li><li>DNS</li><li>IIS</li><li>File Server</li><li>Virtualização</li></ul>
+        </article>
+        <article>
+          <h3>Monitoramento &amp; Dev</h3>
+          <ul class="tags"><li>Zabbix</li><li>Grafana</li><li>Python</li><li>Django</li><li>HTML</li><li>CSS</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="certificacoes">
+      <h2><span>03.</span> Certificações</h2>
+      <div class="certs">
+        <a class="cert" href="https://www.credly.com/badges/619d43e9-e230-4e63-bf84-3a4b8673ea0a" target="_blank" rel="noopener">
+          <img src="assets/aws-saa.png" alt="" width="88" height="88" loading="lazy">
+          <div><h3>AWS Certified Solutions Architect – Associate</h3><p>Amazon Web Services · dez 2023</p></div>
+        </a>
+        <a class="cert" href="https://www.credly.com/badges/4bf813c4-8a5c-41e3-9ef8-995604056c08" target="_blank" rel="noopener">
+          <img src="assets/aws-ccp.png" alt="" width="88" height="88" loading="lazy">
+          <div><h3>AWS Certified Cloud Practitioner</h3><p>Amazon Web Services · jul 2023</p></div>
+        </a>
+        <a class="cert" href="https://www.credly.com/badges/c1183133-7875-41ac-bd15-bc70fedf0cd2" target="_blank" rel="noopener">
+          <img src="assets/az-900.png" alt="" width="88" height="88" loading="lazy">
+          <div><h3>Microsoft Certified: Azure Fundamentals</h3><p>Microsoft · mai 2023</p></div>
+        </a>
+      </div>
+
+      <h3 class="sub">Badges e treinamentos</h3>
+      <div class="certs small">
+        <a class="cert" href="https://www.credly.com/badges/99760508-6797-4ab5-9c8f-1587bbdb15a6" target="_blank" rel="noopener">
+          <img src="assets/aws-educate-compute.png" alt="" width="56" height="56" loading="lazy">
+          <div><h3>AWS Educate: Getting Started with Compute</h3><p>AWS · ago 2023</p></div>
+        </a>
+        <a class="cert" href="https://www.credly.com/badges/d91a792f-4f7e-44e9-8cec-b29513d49123" target="_blank" rel="noopener">
+          <img src="assets/aws-educate-cloud101.png" alt="" width="56" height="56" loading="lazy">
+          <div><h3>AWS Educate: Introduction to Cloud 101</h3><p>AWS · ago 2023</p></div>
+        </a>
+        <a class="cert" href="https://www.credly.com/badges/a19aef63-d0a2-4368-bede-d8f8685e9856" target="_blank" rel="noopener">
+          <img src="assets/aws-cloud-quest.png" alt="" width="56" height="56" loading="lazy">
+          <div><h3>AWS Cloud Quest: Cloud Practitioner</h3><p>AWS · jun 2023</p></div>
+        </a>
+        <a class="cert" href="https://www.credly.com/badges/a5a0b07b-ebe3-4c66-bfdd-a7f63ed09d63" target="_blank" rel="noopener">
+          <img src="assets/lgpdf.png" alt="" width="56" height="56" loading="lazy">
+          <div><h3>Fundamentos na LGPD — LGPDF™</h3><p>Certiprof · abr 2022</p></div>
+        </a>
+        <a class="cert" href="https://www.credly.com/badges/e291fef0-fcba-45b2-9319-4d8d5969bf2a" target="_blank" rel="noopener">
+          <img src="assets/lifelong-learning.png" alt="" width="56" height="56" loading="lazy">
+          <div><h3>Lifelong Learning</h3><p>Certiprof · abr 2022</p></div>
+        </a>
+      </div>
+      <p class="more"><a href="https://www.credly.com/users/dss" target="_blank" rel="noopener">Verificar todas no Credly →</a></p>
+    </section>
+
+    <section class="wrap" id="projetos">
+      <h2><span>04.</span> Projetos</h2>
+      <div class="filters" role="group" aria-label="Filtrar projetos">
+        <button type="button" class="chip on" data-filter="all" aria-pressed="true">Todos</button>
+        <button type="button" class="chip" data-filter="iac" aria-pressed="false">Infra como código</button>
+        <button type="button" class="chip" data-filter="cicd" aria-pressed="false">CI/CD</button>
+        <button type="button" class="chip" data-filter="app" aria-pressed="false">Aplicação</button>
+      </div>
+
+      <div class="projects" id="project-list">
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-djangoapp-project-ecs" target="_blank" rel="noopener">
+          <h3>terraform-djangoapp-project-ecs</h3>
+          <p>Infraestrutura na AWS para uma aplicação Django em containers, provisionada com Terraform sobre o Amazon ECS.</p>
+          <ul class="tags"><li>Terraform</li><li>AWS ECS</li><li>Docker</li></ul>
+        </a>
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-djangoapp-project-as-lb" target="_blank" rel="noopener">
+          <h3>terraform-djangoapp-project-as-lb</h3>
+          <p>A mesma aplicação Django com Auto Scaling e Load Balancer, toda descrita em Terraform.</p>
+          <ul class="tags"><li>Terraform</li><li>ASG</li><li>ELB</li></ul>
+        </a>
+        <a class="project" data-cat="app" href="https://github.com/ssdvd/app-cadastro-django" target="_blank" rel="noopener">
+          <h3>app-cadastro-django</h3>
+          <p>Projeto de controle de produtos simples, usado como aplicação-base nos projetos de infraestrutura.</p>
+          <ul class="tags"><li>Python</li><li>Django</li></ul>
+        </a>
+        <a class="project" data-cat="cicd" href="https://github.com/ssdvd/github-actions-cicd-kubernetes" target="_blank" rel="noopener">
+          <h3>github-actions-cicd-kubernetes</h3>
+          <p>Integração contínua: automatizando a entrega no Kubernetes.</p>
+          <ul class="tags"><li>GitHub Actions</li><li>Kubernetes</li><li>Go</li></ul>
+        </a>
+        <a class="project" data-cat="cicd" href="https://github.com/ssdvd/github-actions-cicd-rollback-tests" target="_blank" rel="noopener">
+          <h3>github-actions-cicd-rollback-tests</h3>
+          <p>Integração contínua: rollback e teste de carga.</p>
+          <ul class="tags"><li>GitHub Actions</li><li>Rollback</li><li>Go</li></ul>
+        </a>
+        <a class="project" data-cat="cicd" href="https://github.com/ssdvd/github-actions-cicd-ecs" target="_blank" rel="noopener">
+          <h3>github-actions-cicd-ecs</h3>
+          <p>Integração contínua: automatize o deploy no Amazon ECS.</p>
+          <ul class="tags"><li>GitHub Actions</li><li>AWS ECS</li><li>Go</li></ul>
+        </a>
+        <a class="project" data-cat="cicd" href="https://github.com/ssdvd/github-actions-cicd-ec2" target="_blank" rel="noopener">
+          <h3>github-actions-cicd-ec2</h3>
+          <p>Pipeline de entrega e implementação contínua na EC2.</p>
+          <ul class="tags"><li>GitHub Actions</li><li>AWS EC2</li><li>Go</li></ul>
+        </a>
+        <a class="project" data-cat="cicd" href="https://github.com/ssdvd/github-actions-ci" target="_blank" rel="noopener">
+          <h3>github-actions-ci</h3>
+          <p>Integração contínua: testes automatizados e pipeline no GitHub Actions.</p>
+          <ul class="tags"><li>GitHub Actions</li><li>Testes</li><li>Go</li></ul>
+        </a>
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-kubernetes" target="_blank" rel="noopener">
+          <h3>terraform-kubernetes</h3>
+          <p>Infraestrutura como código: Terraform e Kubernetes.</p>
+          <ul class="tags"><li>Terraform</li><li>Kubernetes</li></ul>
+        </a>
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-ansible-elastic" target="_blank" rel="noopener">
+          <h3>terraform-ansible-elastic</h3>
+          <p>Montando uma infraestrutura elástica na AWS.</p>
+          <ul class="tags"><li>Terraform</li><li>Ansible</li><li>AWS</li></ul>
+        </a>
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-ansible" target="_blank" rel="noopener">
+          <h3>terraform-ansible</h3>
+          <p>Infraestrutura como código: separando ambientes na AWS com Ansible e Terraform.</p>
+          <ul class="tags"><li>Terraform</li><li>Ansible</li><li>AWS</li></ul>
+        </a>
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-docker-ecs" target="_blank" rel="noopener">
+          <h3>terraform-docker-ecs</h3>
+          <p>Infraestrutura como código com Docker, usando Terraform para provisionamento e a AWS como provedor.</p>
+          <ul class="tags"><li>Terraform</li><li>Docker</li><li>AWS ECS</li></ul>
+        </a>
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-elasticbeanstalk-docker" target="_blank" rel="noopener">
+          <h3>terraform-elasticbeanstalk-docker</h3>
+          <p>Infraestrutura como código com Docker no Elastic Beanstalk, provisionada com Terraform.</p>
+          <ul class="tags"><li>Terraform</li><li>Elastic Beanstalk</li><li>Docker</li></ul>
+        </a>
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-cluster-docker-nodejs" target="_blank" rel="noopener">
+          <h3>terraform-cluster-docker-nodejs</h3>
+          <p>Um app “hello world” Node.js em um cluster de alta disponibilidade e escalabilidade.</p>
+          <ul class="tags"><li>Terraform</li><li>Docker</li><li>Node.js</li></ul>
+        </a>
+        <a class="project" data-cat="iac" href="https://github.com/ssdvd/terraform-ansible-django" target="_blank" rel="noopener">
+          <h3>terraform-ansible-django</h3>
+          <p>Infraestrutura como código: preparando máquinas na AWS com Ansible e Terraform.</p>
+          <ul class="tags"><li>Terraform</li><li>Ansible</li><li>Django</li></ul>
+        </a>
+      </div>
+      <p class="more"><a href="https://github.com/ssdvd?tab=repositories" target="_blank" rel="noopener">Ver todos os repositórios no GitHub →</a></p>
+    </section>
+
+    <section class="wrap contact" id="contato">
+      <h2><span>05.</span> Contato</h2>
+      <p class="lead">Aberto a conversas sobre Cloud, DevOps e oportunidades. Me chama:</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:dvd.santana98@gmail.com">dvd.santana98@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/-dss/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/ssdvd" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.credly.com/users/dss" target="_blank" rel="noopener">Credly</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>© <span id="year">2026</span> David Santana · HTML, CSS e JS puros, sem build.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
