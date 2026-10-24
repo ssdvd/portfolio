@@ -2,7 +2,7 @@
 
 Meu portfólio pessoal, com foco em Cloud, DevOps e SRE: experiência, formação, skills, certificações e projetos.
 
-🌐 **No ar em [ssdvd.github.io/portfolio](https://ssdvd.github.io/portfolio/)**
+🌐 **No ar em [portfolio.ssdvdlab.tech](https://portfolio.ssdvdlab.tech/)**
 
 ## Sobre o site
 
