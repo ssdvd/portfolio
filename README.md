@@ -9,7 +9,7 @@ Meu portfólio pessoal, com foco em Cloud, DevOps e SRE: experiência, formaçã
 - Página única e estática, em HTML, CSS e JavaScript puros, sem frameworks nem etapa de build.
 - Tema claro e escuro, seguindo a preferência do sistema e lembrando a escolha no `localStorage`.
 - Filtro de projetos por categoria.
-- Publicado pelo GitHub Pages direto da branch `main`.
+- Publicado no Coolify (app `portfolio`) a partir da branch `main`.
 
 ## Rodando localmente
 
@@ -32,7 +32,7 @@ assets/      # avatar, favicon e badges das certificações
 
 ## Publicação
 
-Todo push na `main` atualiza o site no GitHub Pages em poucos minutos.
+Depois do merge na `main`, implante o app `portfolio` no Coolify (botão Deploy ou `POST /api/v1/deploy?uuid=mdpfxgkaejmhprwkoalkta8m`).
 
 ## Contato
 
